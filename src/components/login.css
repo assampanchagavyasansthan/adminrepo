@@ -1,0 +1,104 @@
+
+.signup-page-background {
+    background-image: url('/herbs2.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .screen-1 {
+      background-image: url('/herbs2.jpg'); /* Add your background image here */
+      background-size: cover; /* Ensure the image covers the whole area */
+      background-position: center; /* Center the image */
+      background-repeat: no-repeat; /* Prevent the image from repeating */
+      background-color: hsl(213deg 85% 97%); /* Fallback color in case the image doesn't load */
+      padding: 2em;
+      display: flex;
+      flex-direction: column;
+      border-radius: 30px;
+      box-shadow: 0 0 2em hsl(231deg 62% 94%);
+      max-width: 320px;
+      width: 100%;
+      margin: auto;
+      gap: 2em;
+    }
+    
+    h2 {
+      color: hsla(228, 38%, 97%, 0.992);
+      font-size: 24px;
+      font-weight: 600;
+      text-align: center;
+      margin: 0;
+    }
+    
+    .email, .password {
+      background: hsl(0deg 0% 100%);
+      box-shadow: 0 0 2em hsl(231deg 62% 94%);
+      padding: 1em;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5em;
+      border-radius: 20px;
+      color: hsl(0deg 0% 30%);
+    }
+    
+    .email input, .password input {
+      outline: none;
+      border: none;
+      width: 100%;
+      padding: 10px;
+      border-radius: 4px;
+      box-sizing: border-box;
+      font-size: 14px;
+      transition: box-shadow 0.3s ease, border-color 0.3s ease;
+    }
+    
+    .email input:hover, .password input:hover {
+      box-shadow: 0 0 8px hsl(231deg 62% 94%);
+      border-color: hsl(233deg 36% 38%);
+    }
+    
+    .email input::placeholder, .password input::placeholder {
+      color: hsl(0deg 0% 0%);
+      font-size: 0.9em;
+    }
+    
+    .login {
+      padding: 1em;
+      background: hsl(233deg 36% 38%);
+      color: hsl(0 0 100);
+      border: none;
+      border-radius: 30px;
+      font-weight: 600;
+      cursor: pointer;
+      font-size: 16px;
+      text-align: center;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+    
+    .login:hover {
+      background: hsl(233deg 36% 45%);
+      transform: scale(1.05);
+    }
+    
+    .footer {
+      display: flex;
+      font-size: 0.7em;
+      color: hsl(0deg 0% 37%);
+      gap: 14em;
+      padding-bottom: 10em;
+    }
+    
+    .footer span {
+      cursor: pointer;
+      transition: color 0.3s ease;
+    }
+    
+    .footer span:hover {
+      color: hsl(233deg 36% 38%);
+    }
+    
